@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    position: sticky;
+    /* color: #333; */
+}
+
+.header img {
+    display: block;
+    height: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.items .link {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.items .link:hover {
+    border-bottom: 3px solid purple;
+}
+
+.link {
+    text-decoration: none;
+}
+.items img {
+    border-radius: 50%;
+}

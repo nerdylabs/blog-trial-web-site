@@ -1,0 +1,28 @@
+.my-style {
+    margin: 10px 0;
+}
+.my-btn {
+    background-color: purple;
+    background-image: none;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.my-btn:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+.my-btn2:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.my-btn2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: purple;
+    background-image: none;
+    color: white;
+}

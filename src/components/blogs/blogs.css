@@ -1,0 +1,34 @@
+@import url("../../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css");
+
+.mt {
+    margin: 40px;
+}
+
+.title {
+    color: purple;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.my-card {
+    width: 700px;
+    margin-left: 400px;
+    box-shadow: 1px 1px 3px plum;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.display-img img {
+    display: block;
+    height: 70px;
+    margin-top: 20px;
+}
+.my-card img {
+    display: block;
+    width: 100%;
+    /* margin-bottom: 40px; */
+}
